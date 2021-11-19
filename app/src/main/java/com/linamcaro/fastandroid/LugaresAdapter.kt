@@ -6,8 +6,9 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.squareup.picasso.Picasso
 
-class LugaresAdapter(private val lugaresList: ArrayList<lugares>) :
+class LugaresAdapter(private val lugaresList: ArrayList<lugaresItem>) :
     RecyclerView.Adapter<LugaresAdapter.ViewHolder>() {
 
 
@@ -33,11 +34,11 @@ class LugaresAdapter(private val lugaresList: ArrayList<lugares>) :
         private var notaTextView: TextView = itemView.findViewById(R.id.nota_text_view)
         private var pictureImageView: ImageView = itemView.findViewById(R.id.picture_image_view)
 
-        fun bind(lugar: lugares){
+        fun bind(lugar: lugaresItem){
             nameTextView.text =lugar.name
             descriptionTextView.text = lugar.descripction
             notaTextView.text = lugar.puntuacion
-            //picture
+            Picasso.get().load(lugar.urlPicture).into(pictureImageView)
         }
     }
 }

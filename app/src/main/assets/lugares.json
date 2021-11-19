@@ -1,0 +1,32 @@
+[
+  {
+    "name" : "Santurban",
+    "descripction" : "El Páramo Santurbán es un macizo montañoso, conocido geográficamente también como \"Nudo de Santurbán\", es considerado monumento nacional desde 1975",
+    "puntuacion" :  "5.0",
+    "urlPicture" : "https://res.cloudinary.com/dgalifmjr/image/upload/v1637329683/fastandroid/santurban_oexyv1.jpg"
+  },
+  {
+    "name" : "Barichara",
+    "descripction" : "Barichara es un municipio colombiano ubicado en el departamento de Santander. Forma parte de la provincia de Guanentá",
+    "puntuacion" : "4.5",
+    "urlPicture" : "https://res.cloudinary.com/dgalifmjr/image/upload/v1637329739/fastandroid/barichara_dx8eho.jpg"
+  },
+  {
+    "name" : "Cerro el santisimo",
+    "descripction" : "El Ecoparque Cerro del Santísimo es un sitio turístico ubicado en la Vereda Helechales, conocido por poseer una escultura de Jesús de Nazaret de 35 m de alto",
+    "puntuacion" : "4",
+    "urlPicture" : "https://res.cloudinary.com/dgalifmjr/image/upload/v1637329659/fastandroid/cerrosantisimo_olassy.jpg"
+  },
+  {
+    "name" : "Quebrada de las Gachas",
+    "descripction" : "Es denominada la quebrada con jacuzzis naturales se encuentra en el municipio de Guadalupe, departamento de Santander, Colombia.",
+    "puntuacion" : "3.5",
+    "urlPicture": "https://res.cloudinary.com/dgalifmjr/image/upload/v1637329709/fastandroid/gachas_rn4wpn.jpg"
+  },
+  {
+    "name" : "Balneario Pozo Azul",
+    "descripction" : "La Poza Azul es un balneario abierto al público fundada desde antes de los años 80′, es un nacimiento de agua cristalina donde los barrioporteños van a distraerse en familia",
+    "puntuacion" :  "4,3",
+    "urlPicture": "https://res.cloudinary.com/dgalifmjr/image/upload/v1637329696/fastandroid/pozoazul_bbjzus.jpg"
+  }
+]

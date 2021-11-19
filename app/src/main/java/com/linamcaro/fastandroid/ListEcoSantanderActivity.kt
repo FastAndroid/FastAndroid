@@ -4,10 +4,11 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.google.gson.Gson
 
 class ListEcoSantanderActivity : AppCompatActivity() {
 
-    private lateinit var listLugares : ArrayList<lugares>
+    private lateinit var listLugares : ArrayList<lugaresItem>
     private  lateinit var lugaresAdapter: LugaresAdapter
     private  lateinit var ecoSantanderRecyclerView: RecyclerView
 
@@ -17,7 +18,9 @@ class ListEcoSantanderActivity : AppCompatActivity() {
 
         ecoSantanderRecyclerView = findViewById(R.id.eco_santander_recycler_view)
 
-        listLugares = createMockLugares()
+        //listLugares = createMockLugares()
+
+        listLugares = loadMocklugaresFromJson()
 
         lugaresAdapter = LugaresAdapter(listLugares)
 
@@ -29,6 +32,13 @@ class ListEcoSantanderActivity : AppCompatActivity() {
         ecoSantanderRecyclerView.adapter = lugaresAdapter
     }
 
+    private fun loadMocklugaresFromJson(): ArrayList<lugaresItem> {
+        val lugaresString: String = applicationContext.assets.open("lugares.json").bufferedReader().use {it.readText()}
+        val gson = Gson()
+        val data = gson.fromJson(lugaresString, lugares::class.java)
+        return data
+    }
+/*
     private fun createMockLugares() : ArrayList<lugares>{
         return arrayListOf(
             lugares(name = "Santurban",
@@ -53,5 +63,5 @@ class ListEcoSantanderActivity : AppCompatActivity() {
                 puntuacion =  "4,3"
             )
         )
-    }
+    }*/
 }
