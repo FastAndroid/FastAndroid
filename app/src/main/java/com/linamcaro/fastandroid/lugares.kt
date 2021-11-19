@@ -1,7 +1,6 @@
 package com.linamcaro.fastandroid
 
-data class lugares(
-    val name: String,
-    val descripction: String,
-    val puntuacion: String
-)
+
+import com.google.gson.annotations.SerializedName
+
+class lugares : ArrayList<lugaresItem>()
