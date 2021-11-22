@@ -6,12 +6,15 @@
 
     <application
         android:allowBackup="true"
+        android:fullBackupContent="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.FastAndroid"
-        android:fullBackupContent="true">
+        android:theme="@style/Theme.FastAndroid">
+        <activity
+            android:name=".activity_detalle_barichara"
+            android:exported="false" />
         <activity
             android:name=".ListEcoSantanderActivity"
             android:exported="true">
@@ -22,10 +25,8 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".DetalleActivity"
-            android:exported="true">
-
-        </activity>
+            android:name=".MainActivity"
+            android:exported="true"></activity>
     </application>
 
 </manifest>
