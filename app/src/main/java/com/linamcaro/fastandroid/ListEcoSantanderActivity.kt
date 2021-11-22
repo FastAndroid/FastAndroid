@@ -1,5 +1,6 @@
 package com.linamcaro.fastandroid
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -22,7 +23,7 @@ class ListEcoSantanderActivity : AppCompatActivity() {
 
         listLugares = loadMocklugaresFromJson()
 
-        lugaresAdapter = LugaresAdapter(listLugares)
+        lugaresAdapter = LugaresAdapter(listLugares, onItemCliked = {onLugarCliked(it)})
 
         ecoSantanderRecyclerView.apply {
             layoutManager = LinearLayoutManager(context)
@@ -30,6 +31,13 @@ class ListEcoSantanderActivity : AppCompatActivity() {
             setHasFixedSize((false))
         }
         ecoSantanderRecyclerView.adapter = lugaresAdapter
+    }
+
+    private fun onLugarCliked(lugar: lugaresItem) {
+        val intent= Intent(this, DetalleActivity::class.java)
+        intent.putExtra("lugar",lugar)
+        startActivity(intent)
+
     }
 
     private fun loadMocklugaresFromJson(): ArrayList<lugaresItem> {

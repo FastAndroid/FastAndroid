@@ -8,7 +8,10 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.squareup.picasso.Picasso
 
-class LugaresAdapter(private val lugaresList: ArrayList<lugaresItem>) :
+class LugaresAdapter(
+    private val lugaresList: ArrayList<lugaresItem>,
+    private val onItemCliked: (lugaresItem) -> Unit
+) :
     RecyclerView.Adapter<LugaresAdapter.ViewHolder>() {
 
 
@@ -20,6 +23,7 @@ class LugaresAdapter(private val lugaresList: ArrayList<lugaresItem>) :
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val lugar = lugaresList[position]
+        holder.itemView.setOnClickListener{onItemCliked(lugaresList[position])}
         holder.bind(lugar)
     }
 
