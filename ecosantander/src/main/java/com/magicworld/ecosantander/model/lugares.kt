@@ -1,4 +1,4 @@
-package com.linamcaro.fastandroid
+package com.magicworld.ecosantander.model
 
 
 import com.google.gson.annotations.SerializedName
