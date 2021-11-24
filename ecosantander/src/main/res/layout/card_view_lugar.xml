@@ -52,36 +52,30 @@
                 app:layout_constraintStart_toEndOf="@+id/picture_image_view"
                 app:layout_constraintTop_toBottomOf="@+id/name_text_view" />
 
-            <TextView
+
+
+
+            <RatingBar
                 android:id="@+id/nota_text_view"
-                style="@style/Texto_normal"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
-                android:layout_marginEnd="16dp"
-                android:layout_marginBottom="8dp"
-                android:text="@string/calificacion_nota"
-                android:textAlignment="center"
-                android:textSize="12sp"
+                android:layout_width="234dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="4dp"
+                android:numStars="5"
+                android:rating="4"
+                android:scaleX=".4"
+                android:scaleY=".4"
+                android:translationX="50dp"
+                android:translationY="-10dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/description_text_view"
-                app:layout_constraintVertical_bias="1.0" />
+                app:layout_constraintVertical_bias="1.0"
 
-            <TextView
-                android:id="@+id/textView7"
-                style="@style/Subtitulo"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
-                android:layout_marginEnd="12dp"
-                android:layout_marginBottom="8dp"
-                android:text="@string/calificacion"
-                android:textSize="12sp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toStartOf="@+id/nota_text_view"
-                app:layout_constraintTop_toBottomOf="@+id/description_text_view"
-                app:layout_constraintVertical_bias="1.0" />
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:ignore="SpeakableTextPresentCheck" />
+
 
             <TextView
                 android:id="@+id/name_text_view"
