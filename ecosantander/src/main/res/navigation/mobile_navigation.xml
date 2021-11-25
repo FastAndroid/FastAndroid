@@ -18,5 +18,9 @@
         android:id="@+id/detailFragment"
         android:name="com.magicworld.ecosantander.detail.DetailFragment"
         android:label="fragment_detail"
-        tools:layout="@layout/fragment_detail" />
+        tools:layout="@layout/fragment_detail" >
+        <argument
+            android:name="lugar"
+            app:argType="com.magicworld.ecosantander.model.lugaresItem" />
+    </fragment>
 </navigation>

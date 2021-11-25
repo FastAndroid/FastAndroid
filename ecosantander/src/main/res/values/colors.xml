@@ -11,4 +11,5 @@
     <color name="ligth_blue">#03A9F4</color>
     <color name="black_primary_text">#212121</color>
     <color name="secundary_text">#757575</color>
+    <color name="accent">#00BCD4</color>
 </resources>

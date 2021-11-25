@@ -5,6 +5,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.google.gson.Gson
 import com.magicworld.ecosantander.databinding.FragmentListBinding
@@ -41,7 +42,7 @@ class ListFragment : Fragment() {
     }
 
     private fun onLugarCliked(lugar: lugaresItem) {
-
+        findNavController().navigate(ListFragmentDirections.actionListFragmentToDetailFragment(lugar=lugar))
     }
 
     private fun loadMocklugaresFromJson(): ArrayList<lugaresItem> {
