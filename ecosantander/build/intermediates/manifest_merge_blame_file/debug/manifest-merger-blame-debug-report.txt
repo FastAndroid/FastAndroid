@@ -1,0 +1,79 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.magicworld.ecosantander"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\nelson\OneDrive - Blisoft S.A.S\MinTic 2022\Ciclo 4\Fundametos de Progrmacion 4\FastAndroid-main-con-Fragmentos\ecosantander\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->C:\Users\nelson\OneDrive - Blisoft S.A.S\MinTic 2022\Ciclo 4\Fundametos de Progrmacion 4\FastAndroid-main-con-Fragmentos\ecosantander\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Users\nelson\OneDrive - Blisoft S.A.S\MinTic 2022\Ciclo 4\Fundametos de Progrmacion 4\FastAndroid-main-con-Fragmentos\ecosantander\src\main\AndroidManifest.xml:5:5-21:19
+12        android:allowBackup="true"
+12-->C:\Users\nelson\OneDrive - Blisoft S.A.S\MinTic 2022\Ciclo 4\Fundametos de Progrmacion 4\FastAndroid-main-con-Fragmentos\ecosantander\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.7.0] C:\Users\nelson\.gradle\caches\transforms-3\6006d603408a8c1ed0edf3e550c48eb5\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->C:\Users\nelson\OneDrive - Blisoft S.A.S\MinTic 2022\Ciclo 4\Fundametos de Progrmacion 4\FastAndroid-main-con-Fragmentos\ecosantander\src\main\AndroidManifest.xml:7:9-43
+16        android:label="@string/app_name"
+16-->C:\Users\nelson\OneDrive - Blisoft S.A.S\MinTic 2022\Ciclo 4\Fundametos de Progrmacion 4\FastAndroid-main-con-Fragmentos\ecosantander\src\main\AndroidManifest.xml:8:9-41
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->C:\Users\nelson\OneDrive - Blisoft S.A.S\MinTic 2022\Ciclo 4\Fundametos de Progrmacion 4\FastAndroid-main-con-Fragmentos\ecosantander\src\main\AndroidManifest.xml:9:9-54
+18        android:supportsRtl="true"
+18-->C:\Users\nelson\OneDrive - Blisoft S.A.S\MinTic 2022\Ciclo 4\Fundametos de Progrmacion 4\FastAndroid-main-con-Fragmentos\ecosantander\src\main\AndroidManifest.xml:10:9-35
+19        android:theme="@style/Theme.FastAndroid" >
+19-->C:\Users\nelson\OneDrive - Blisoft S.A.S\MinTic 2022\Ciclo 4\Fundametos de Progrmacion 4\FastAndroid-main-con-Fragmentos\ecosantander\src\main\AndroidManifest.xml:11:9-49
+20        <activity
+20-->C:\Users\nelson\OneDrive - Blisoft S.A.S\MinTic 2022\Ciclo 4\Fundametos de Progrmacion 4\FastAndroid-main-con-Fragmentos\ecosantander\src\main\AndroidManifest.xml:12:9-20:20
+21            android:name="com.magicworld.ecosantander.main.MainActivity"
+21-->C:\Users\nelson\OneDrive - Blisoft S.A.S\MinTic 2022\Ciclo 4\Fundametos de Progrmacion 4\FastAndroid-main-con-Fragmentos\ecosantander\src\main\AndroidManifest.xml:13:13-46
+22            android:exported="true" >
+22-->C:\Users\nelson\OneDrive - Blisoft S.A.S\MinTic 2022\Ciclo 4\Fundametos de Progrmacion 4\FastAndroid-main-con-Fragmentos\ecosantander\src\main\AndroidManifest.xml:14:13-36
+23            <intent-filter>
+23-->C:\Users\nelson\OneDrive - Blisoft S.A.S\MinTic 2022\Ciclo 4\Fundametos de Progrmacion 4\FastAndroid-main-con-Fragmentos\ecosantander\src\main\AndroidManifest.xml:15:13-19:29
+24                <action android:name="android.intent.action.MAIN" />
+24-->C:\Users\nelson\OneDrive - Blisoft S.A.S\MinTic 2022\Ciclo 4\Fundametos de Progrmacion 4\FastAndroid-main-con-Fragmentos\ecosantander\src\main\AndroidManifest.xml:16:17-69
+24-->C:\Users\nelson\OneDrive - Blisoft S.A.S\MinTic 2022\Ciclo 4\Fundametos de Progrmacion 4\FastAndroid-main-con-Fragmentos\ecosantander\src\main\AndroidManifest.xml:16:25-66
+25
+26                <category android:name="android.intent.category.LAUNCHER" />
+26-->C:\Users\nelson\OneDrive - Blisoft S.A.S\MinTic 2022\Ciclo 4\Fundametos de Progrmacion 4\FastAndroid-main-con-Fragmentos\ecosantander\src\main\AndroidManifest.xml:18:17-77
+26-->C:\Users\nelson\OneDrive - Blisoft S.A.S\MinTic 2022\Ciclo 4\Fundametos de Progrmacion 4\FastAndroid-main-con-Fragmentos\ecosantander\src\main\AndroidManifest.xml:18:27-74
+27            </intent-filter>
+28        </activity>
+29
+30        <provider
+30-->[com.squareup.picasso:picasso:2.8] C:\Users\nelson\.gradle\caches\transforms-3\762b8478b5582fbb5ee904b9528d72e8\transformed\jetified-picasso-2.8\AndroidManifest.xml:8:9-11:40
+31            android:name="com.squareup.picasso.PicassoProvider"
+31-->[com.squareup.picasso:picasso:2.8] C:\Users\nelson\.gradle\caches\transforms-3\762b8478b5582fbb5ee904b9528d72e8\transformed\jetified-picasso-2.8\AndroidManifest.xml:9:13-64
+32            android:authorities="com.magicworld.ecosantander.com.squareup.picasso"
+32-->[com.squareup.picasso:picasso:2.8] C:\Users\nelson\.gradle\caches\transforms-3\762b8478b5582fbb5ee904b9528d72e8\transformed\jetified-picasso-2.8\AndroidManifest.xml:10:13-72
+33            android:exported="false" />
+33-->[com.squareup.picasso:picasso:2.8] C:\Users\nelson\.gradle\caches\transforms-3\762b8478b5582fbb5ee904b9528d72e8\transformed\jetified-picasso-2.8\AndroidManifest.xml:11:13-37
+34        <provider
+34-->[androidx.emoji2:emoji2:1.0.0] C:\Users\nelson\.gradle\caches\transforms-3\0c8b21db498ae6b6ba22706b7f0dbd1b\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+35            android:name="androidx.startup.InitializationProvider"
+35-->[androidx.emoji2:emoji2:1.0.0] C:\Users\nelson\.gradle\caches\transforms-3\0c8b21db498ae6b6ba22706b7f0dbd1b\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+36            android:authorities="com.magicworld.ecosantander.androidx-startup"
+36-->[androidx.emoji2:emoji2:1.0.0] C:\Users\nelson\.gradle\caches\transforms-3\0c8b21db498ae6b6ba22706b7f0dbd1b\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+37            android:exported="false" >
+37-->[androidx.emoji2:emoji2:1.0.0] C:\Users\nelson\.gradle\caches\transforms-3\0c8b21db498ae6b6ba22706b7f0dbd1b\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+38            <meta-data
+38-->[androidx.emoji2:emoji2:1.0.0] C:\Users\nelson\.gradle\caches\transforms-3\0c8b21db498ae6b6ba22706b7f0dbd1b\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+39                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+39-->[androidx.emoji2:emoji2:1.0.0] C:\Users\nelson\.gradle\caches\transforms-3\0c8b21db498ae6b6ba22706b7f0dbd1b\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+40                android:value="androidx.startup" />
+40-->[androidx.emoji2:emoji2:1.0.0] C:\Users\nelson\.gradle\caches\transforms-3\0c8b21db498ae6b6ba22706b7f0dbd1b\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+41            <meta-data
+41-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\nelson\.gradle\caches\transforms-3\a889c36c21c1e2bc116f811fb6c47330\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+42                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+42-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\nelson\.gradle\caches\transforms-3\a889c36c21c1e2bc116f811fb6c47330\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+43                android:value="androidx.startup" />
+43-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\nelson\.gradle\caches\transforms-3\a889c36c21c1e2bc116f811fb6c47330\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+44        </provider>
+45    </application>
+46
+47</manifest>
