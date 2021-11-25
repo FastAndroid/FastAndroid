@@ -4,7 +4,7 @@ package com.magicworld.ecosantander.model
 import com.google.gson.annotations.SerializedName
 import java.io.Serializable
 
-data class LugaresItem(
+data class lugaresItem(
     @SerializedName("clima")
     val clima: String,
     @SerializedName("descripction")

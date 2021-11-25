@@ -56,7 +56,7 @@
 
 
             <RatingBar
-                android:id="@+id/nota_text_view"
+                android:id="@+id/nota_rating_bar"
                 android:layout_width="234dp"
                 android:layout_height="45dp"
                 android:layout_marginTop="4dp"
