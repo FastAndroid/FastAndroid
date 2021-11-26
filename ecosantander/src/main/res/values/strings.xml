@@ -18,5 +18,20 @@
     <string name="detalle_barichara">Pueblo monumento nacional desde 1975, uno de los pueblos más bellos y mejor conservados de Colombia constituye un documento arquitectónico de la Colonia. Caminar sus calles empedradas y ver sus casas construidas en tapia pisada, techos de bareque, tejas de barro y paredes pintadas de blanco son el testimonio del pasado.</string>
     <string name="debes_saber">Debes saber..</string>
     <string name="debes_Saber_barichara">La mejor época para viajar a Barichara en Colombia es en enero y febrero y diciembre, donde tienes un clima agradable y poco hasta moderado precipitación. La temperatura máxima promedio en Barichara es 26°C en enero y de 24°C en abril.</string>
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="notifications">notifications</string>
 
 </resources>
