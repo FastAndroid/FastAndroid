@@ -9,6 +9,7 @@ import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.google.gson.Gson
 import com.magicworld.ecosantander.databinding.FragmentListBinding
+import com.magicworld.ecosantander.main.MainActivity
 import com.magicworld.ecosantander.model.lugares
 import com.magicworld.ecosantander.model.lugaresItem
 
@@ -30,6 +31,7 @@ class ListFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        (activity as MainActivity?)?.hideIcon()
 
         listLugares = loadMocklugaresFromJson()
         lugaresAdapter= LugaresAdapter(listLugares, onItemCliked = {onLugarCliked(it)})
