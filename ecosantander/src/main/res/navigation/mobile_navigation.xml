@@ -25,9 +25,17 @@
         <argument
             android:name="lugar"
             app:argType="com.magicworld.ecosantander.model.lugaresItem" />
+        <action
+            android:id="@+id/action_detailFragment_to_mapsFragment"
+            app:destination="@id/mapsFragment" />
     </fragment>
     <fragment
         android:id="@+id/settingsFragment"
         android:name="com.magicworld.ecosantander.preference.SettingsFragment"
         android:label="SettingsFragment" />
+    <fragment
+        android:id="@+id/mapsFragment"
+        android:name="com.magicworld.ecosantander.MapsFragment"
+        android:label="fragment_maps"
+        tools:layout="@layout/fragment_maps" />
 </navigation>

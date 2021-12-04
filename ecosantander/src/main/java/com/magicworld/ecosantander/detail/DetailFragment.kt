@@ -5,6 +5,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
 import com.magicworld.ecosantander.databinding.FragmentDetailBinding
 import com.magicworld.ecosantander.main.MainActivity
@@ -41,6 +42,9 @@ class DetailFragment : Fragment() {
             sabiasTextView.text = lugar.sabias
             climaTextView.text = lugar.clima
             Picasso.get().load(lugar.urlPicturePoi).into(pictureImageView)
+            imageButton.setOnClickListener{
+                findNavController().navigate(DetailFragmentDirections.actionDetailFragmentToMapsFragment())
+            }
         }
     }
 
