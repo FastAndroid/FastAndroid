@@ -34,6 +34,12 @@ class LugaresAdapter(
         return lugaresList.size
     }
 
+    fun appendItems(newItem: ArrayList<lugaresItem>) {
+        this.lugaresList.clear()
+        this.lugaresList.addAll(newItem)
+        notifyDataSetChanged()
+    }
+
     class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView){
 
         private var nameTextView: TextView = itemView.findViewById(R.id.name_text_view)
