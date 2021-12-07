@@ -50,7 +50,7 @@ class LugaresAdapter(
         fun bind(lugar: lugaresItem){
             nameTextView.text =lugar.name
             descriptionTextView.text = lugar.descripction
-            notaRatingBar.rating= lugar.puntuacion.toFloat()
+            notaRatingBar.rating= lugar.puntuacion
             Picasso.get().load(lugar.urlPicture).into(pictureImageView)
         }
     }

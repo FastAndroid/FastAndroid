@@ -14,11 +14,17 @@ data class lugaresItem(
     @SerializedName("name")
     val name: String,
     @SerializedName("puntuacion")
-    val puntuacion: String,
+    val puntuacion: Float,
     @SerializedName("sabias")
     val sabias: String,
     @SerializedName("urlPicture")
     val urlPicture: String,
     @SerializedName("urlPicturePoi")
-    val urlPicturePoi: String
+    val urlPicturePoi: String,
+    @SerializedName("lat")
+    val lat: Double,
+    @SerializedName("lng")
+    val lng: Double,
+    @SerializedName("zoom")
+    val zoom: Float
 ): Serializable

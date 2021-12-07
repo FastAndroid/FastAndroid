@@ -35,5 +35,6 @@
     <string name="notifications">notificaciones</string>
     <string name="preferencias">Preferencias</string>
     <string name="botton_zoom_description">botton zoom</string>
+    <string name="ubicacion_label">Ubicación</string>
 
 </resources>

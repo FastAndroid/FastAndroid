@@ -7,6 +7,12 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
+import com.google.android.gms.maps.CameraUpdateFactory
+import com.google.android.gms.maps.OnMapReadyCallback
+import com.google.android.gms.maps.SupportMapFragment
+import com.google.android.gms.maps.model.LatLng
+import com.google.android.gms.maps.model.MarkerOptions
+import com.magicworld.ecosantander.R
 import com.magicworld.ecosantander.databinding.FragmentDetailBinding
 import com.magicworld.ecosantander.main.MainActivity
 import com.squareup.picasso.Picasso
@@ -15,6 +21,18 @@ class DetailFragment : Fragment() {
 
     private lateinit var  detailBinding: FragmentDetailBinding
     private val args: DetailFragmentArgs by navArgs()
+    private val callback = OnMapReadyCallback { googleMap ->
+
+        val lugar = args.lugar
+        val lugares = LatLng(lugar.lat,lugar.lng)
+        googleMap.addMarker(
+            MarkerOptions()
+                .position(lugares)
+                .title(lugar.name)
+                .snippet(lugar.puntuacion.toString())
+        )
+        googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(lugares,lugar.zoom))
+    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -42,10 +60,13 @@ class DetailFragment : Fragment() {
             sabiasTextView.text = lugar.sabias
             climaTextView.text = lugar.clima
             Picasso.get().load(lugar.urlPicturePoi).into(pictureImageView)
+
             imageButton.setOnClickListener{
-                findNavController().navigate(DetailFragmentDirections.actionDetailFragmentToMapsFragment())
+                findNavController().navigate(DetailFragmentDirections.actionDetailFragmentToMapsFragment(lugares=lugar))
             }
         }
+        val mapFragment = childFragmentManager.findFragmentById(R.id.map) as SupportMapFragment?
+        mapFragment?.getMapAsync(callback)
     }
 
 }
