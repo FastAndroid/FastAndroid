@@ -1,0 +1,69 @@
+{
+  "lugares": [
+    {
+      "name": "Santurban",
+      "descripction": "El Páramo Santurbán es un macizo montañoso, conocido geográficamente también como \"Nudo de Santurbán\", es considerado monumento nacional desde 1975",
+      "puntuacion": 5.0,
+      "lat": 7.24838,
+      "lng": -72.87471,
+      "zoom": 13.5,
+      "urlPicture": "https://res.cloudinary.com/dgalifmjr/image/upload/v1637329683/fastandroid/santurban_oexyv1.jpg",
+      "urlPicturePoi": "https://res.cloudinary.com/dgalifmjr/image/upload/v1637596430/fastandroid/santurbanpoi_zk4ryp.jpg",
+      "descriptionUno": "El Complejo del Páramo Santurbán se ubica en el noroeste de la Cordillera de Los Andes, integrando territorios de Santander y Norte de Santander. Dentro de su área se destacan: el Parque Natural Regional Santurbán y el complejo lagunario, que comprende una alta riqueza en flora, fauna y microbiota, con bosques andinos. Este santuario es perfecto para las caminatas ecológicas.",
+      "sabias": "En santurbán se puede encontrar cuatro tipos de zonas tales como vegetación de páramo, bosques andinos, tierras agropecuarias mixtas y humedales.",
+      "clima": "El clima típico del páramo se caracteriza por ser frío a extremadamente frío con temperaturas mínimas por debajo de 0ºC y máximas que superan los 35ºC. "
+    },
+    {
+      "name": "Barichara",
+      "descripction": "Barichara es un municipio colombiano ubicado en el departamento de Santander. Forma parte de la provincia de Guanentá",
+      "puntuacion": 4.5,
+      "lat": 6.63619,
+      "lng": -73.22345,
+      "zoom": 16,
+      "urlPicture": "https://res.cloudinary.com/dgalifmjr/image/upload/v1637329739/fastandroid/barichara_dx8eho.jpg",
+      "urlPicturePoi": "https://res.cloudinary.com/dgalifmjr/image/upload/v1637596457/fastandroid/baricharapoi_jntyfh.jpg",
+      "descriptionUno": "Pueblo monumento nacional desde 1975, uno de los pueblos más bellos y mejor conservados de Colombia constituye un documento arquitectónico de la Colonia.",
+      "sabias": "Cuenta la leyenda que en 1702, un campesino se encontró con la Santísima Virgen. Luego de su aparición, la imagen quedó impresa en una piedra que días después, se convirtió en foco de adoración y fervor católico.",
+      "clima": "Durante el transcurso del año, la temperatura generalmente varía de 18 °C a 24 °C y rara vez baja a menos de 16 °C o sube a más de 27 °C."
+    },
+    {
+      "name": "Cerro el santisimo",
+      "descripction": "El Ecoparque Cerro del Santísimo es un sitio turístico ubicado en la Vereda Helechales, conocido por poseer una escultura de Jesús de Nazaret de 35 m de alto",
+      "puntuacion": 4.0,
+      "lat": 7.08116,
+      "lng": -73.07011,
+      "zoom": 18,
+      "urlPicture": "https://res.cloudinary.com/dgalifmjr/image/upload/v1637329659/fastandroid/cerrosantisimo_olassy.jpg",
+      "urlPicturePoi": "https://res.cloudinary.com/dgalifmjr/image/upload/v1637596443/fastandroid/cerrosantisimopoi_t0ij0n.jpg",
+      "descriptionUno": "Ubicado en la vereda ‘El Helechales’, de Floridablanca se encuentra el Ecoparque  Cerro del Santísimo, el cual se erige como uno de los principales destinos turísticos de Santander. Allí los visitantes y turistas pueden contemplar los paisajes, la naturaleza que rodea el Bucaramanga y su área metropolitana y, además, disfrutar del clima con los espacios abiertos que posee este lugar.",
+      "sabias": "En ‘El Santísimo’ sobresale una escultura de Jesús de Nazaret que mide 33 m de alto, por lo que se convierte en un sitio de peregrinaje en Semana Santa.",
+      "clima": "la temperatura generalmente varía de 20 °C a 26 °C y rara vez baja a menos de 18 °C o sube a más de 29 °C."
+    },
+    {
+      "name": "Quebrada de las Gachas",
+      "descripction": "Es denominada la quebrada con jacuzzis naturales se encuentra en el municipio de Guadalupe, departamento de Santander, Colombia.",
+      "puntuacion": 3.5,
+      "lat": 6.21590,
+      "lng": -73.40870,
+      "zoom": 17,
+      "urlPicture": "https://res.cloudinary.com/dgalifmjr/image/upload/v1637329709/fastandroid/gachas_rn4wpn.jpg",
+      "urlPicturePoi": "https://res.cloudinary.com/dgalifmjr/image/upload/v1637596450/fastandroid/lasgachaspoi_vp9geh.jpg",
+      "descriptionUno": "La quebrada de Las Gachas se encuentra cerca del municipio de Guadalupe, en el departamento de Santander, y es considerado el “Caño Cristales de Santander”. La quebrada está conformada por unos huecos que se llenan de agua, llamados informalmente “jacuzzis naturales”. Aunque el agua es cristalina, el efecto de la roca rojiza le brinda un tono vinotinto al ser vista desde lejos.",
+      "sabias": "Los cráteres característicos de Las Gachas son el resultado de millones de años de erosión y acción de la naturaleza. Gracias a ello, en la zona se han asentado gran cantidad de especies de fauna y flora que podrás apreciar en tu visita.",
+      "clima": "Las Gachas de Guadalupe presentan una temperatura promedio de 23°C "
+    },
+    {
+      "name": "Balneario Pozo Azul",
+      "descripction": "La Poza Azul es un balneario abierto al público fundada desde antes de los años 80′, es un nacimiento de agua cristalina donde los barrioporteños van a distraerse en familia",
+      "puntuacion": 4.3,
+      "lat": 6.55636,
+      "lng": -73.11154,
+      "zoom": 17,
+      "urlPicture": "https://res.cloudinary.com/dgalifmjr/image/upload/v1637329696/fastandroid/pozoazul_bbjzus.jpg",
+      "urlPicturePoi": "https://res.cloudinary.com/dgalifmjr/image/upload/v1637596466/fastandroid/pozoazulpoi_mghqfg.jpg",
+      "descriptionUno": "Hermoso pozo natural ubicado a 2Km del municipio de San Gil, un lugar lleno de paz y tranquilidad perfecto para disfrutar en familia o con amigos. Es un balneario natural, que recibe las aguas de la quebrada Curití, desde unas atractivas cascadas de baja altura, a donde los bañistas llegan con facilidad y, por donde fluyen las frescas aguas que corren sobre una gran laja hasta caer al magnífico pozo del lugar.",
+      "sabias": "Esta rodeada de una selva tropical con especies como palmeras, árbol de mango, corozos, flor de heliconia etc. cuenta con agua cristalina la cual nace en ese mismo lugar.",
+      "clima": "La temperatura máxima promedio en Pozo Azul es 27°C en enero y de 23°C en junio."
+    }
+  ]
+}
