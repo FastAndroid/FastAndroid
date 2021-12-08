@@ -1,4 +1,4 @@
-package com.magicworld.ecosantander.main
+package com.magicworld.ecosantander.ui.main
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -8,7 +8,7 @@ import android.view.MenuItem
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentTransaction
 import com.magicworld.ecosantander.R
-import com.magicworld.ecosantander.preference.SettingsFragment
+import com.magicworld.ecosantander.ui.preference.SettingsFragment
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

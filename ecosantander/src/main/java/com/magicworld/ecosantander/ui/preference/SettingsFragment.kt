@@ -1,11 +1,11 @@
-package com.magicworld.ecosantander.preference
+package com.magicworld.ecosantander.ui.preference
 
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuInflater
 import androidx.preference.PreferenceFragmentCompat
 import com.magicworld.ecosantander.R
-import com.magicworld.ecosantander.main.MainActivity
+import com.magicworld.ecosantander.ui.main.MainActivity
 
 class SettingsFragment : PreferenceFragmentCompat() {
 

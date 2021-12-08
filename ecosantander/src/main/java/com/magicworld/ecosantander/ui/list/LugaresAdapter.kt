@@ -1,4 +1,4 @@
-package com.magicworld.ecosantander.list
+package com.magicworld.ecosantander.ui.list
 
 import android.view.LayoutInflater
 import android.view.View

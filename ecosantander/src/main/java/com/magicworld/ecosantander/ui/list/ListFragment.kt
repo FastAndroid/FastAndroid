@@ -1,4 +1,4 @@
-package com.magicworld.ecosantander.list
+package com.magicworld.ecosantander.ui.list
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -9,7 +9,7 @@ import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.magicworld.ecosantander.databinding.FragmentListBinding
-import com.magicworld.ecosantander.main.MainActivity
+import com.magicworld.ecosantander.ui.main.MainActivity
 import com.magicworld.ecosantander.model.lugaresItem
 
 
@@ -33,7 +33,8 @@ class ListFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         (activity as MainActivity?)?.hideIcon()
 
-        listViewModel.loadMocklugaresFromJson(context?.assets?.open("lugares.json"))
+        //listViewModel.loadMocklugaresFromJson(context?.assets?.open("lugares.json"))
+        listViewModel.getLugaresFromServer()
         lugaresAdapter= LugaresAdapter(listLugares, onItemCliked = {onLugarCliked(it)})
 
         listBinding.ecoSantanderRecyclerView.apply {

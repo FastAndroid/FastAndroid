@@ -1,4 +1,4 @@
-package com.magicworld.ecosantander.detail
+package com.magicworld.ecosantander.ui.detail
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -14,7 +14,7 @@ import com.google.android.gms.maps.model.LatLng
 import com.google.android.gms.maps.model.MarkerOptions
 import com.magicworld.ecosantander.R
 import com.magicworld.ecosantander.databinding.FragmentDetailBinding
-import com.magicworld.ecosantander.main.MainActivity
+import com.magicworld.ecosantander.ui.main.MainActivity
 import com.squareup.picasso.Picasso
 
 class DetailFragment : Fragment() {
