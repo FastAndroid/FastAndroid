@@ -28,6 +28,9 @@
         <action
             android:id="@+id/action_detailFragment_to_mapsFragment"
             app:destination="@id/mapsFragment" />
+        <action
+            android:id="@+id/action_detailFragment_to_zoomFragment"
+            app:destination="@id/zoomFragment" />
     </fragment>
     <fragment
         android:id="@+id/settingsFragment"
@@ -40,6 +43,15 @@
         tools:layout="@layout/fragment_maps" >
         <argument
             android:name="lugares"
+            app:argType="com.magicworld.ecosantander.model.lugaresItem" />
+    </fragment>
+    <fragment
+        android:id="@+id/zoomFragment"
+        android:name="com.magicworld.ecosantander.ui.detail.ZoomFragment"
+        android:label="fragment_zoom"
+        tools:layout="@layout/fragment_zoom" >
+        <argument
+            android:name="lugar"
             app:argType="com.magicworld.ecosantander.model.lugaresItem" />
     </fragment>
 </navigation>

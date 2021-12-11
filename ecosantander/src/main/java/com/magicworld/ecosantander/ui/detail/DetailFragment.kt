@@ -64,6 +64,9 @@ class DetailFragment : Fragment() {
             imageButton.setOnClickListener{
                 findNavController().navigate(DetailFragmentDirections.actionDetailFragmentToMapsFragment(lugares=lugar))
             }
+            pictureImageView.setOnClickListener{
+                findNavController().navigate(DetailFragmentDirections.actionDetailFragmentToZoomFragment(lugar=lugar))
+            }
         }
         val mapFragment = childFragmentManager.findFragmentById(R.id.map) as SupportMapFragment?
         mapFragment?.getMapAsync(callback)

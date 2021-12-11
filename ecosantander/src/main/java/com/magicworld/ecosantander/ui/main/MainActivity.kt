@@ -12,6 +12,9 @@ import com.magicworld.ecosantander.ui.preference.SettingsFragment
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
+
+        setTheme(R.style.Theme_FastAndroid)
+
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
     }
