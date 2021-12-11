@@ -33,8 +33,8 @@ class ListFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         (activity as MainActivity?)?.hideIcon()
 
-        listViewModel.loadMocklugaresFromJson(context?.assets?.open("lugares.json"))
-        //listViewModel.getLugaresFromServer()
+        //listViewModel.loadMocklugaresFromJson(context?.assets?.open("lugares.json"))
+        listViewModel.getLugaresFromServer()
         lugaresAdapter= LugaresAdapter(listLugares, onItemCliked = {onLugarCliked(it)})
 
         listBinding.ecoSantanderRecyclerView.apply {
